@@ -1,0 +1,18 @@
+NAME
+     simplified_fk - creates a migration with suggested foreign keys.
+
+SYNOPSIS
+     simplified_fk
+     
+     Takes no arguments.
+     Creates a rails migration with suggested foreign keys for the current database
+     schema.
+
+DESCRIPTION
+     Creates a rails migration with suggested foreign keys for the current database
+     schema.
+            
+EXAMPLE
+      ./script/generate simplified_fk
+
+     This will generate migration XXX_suggested_foreign_keys_simplified_fk
