@@ -1,7 +1,7 @@
 require "suggest_fks"
 
-class GeneratorGenerator < Rails::Generator::Base
-#attr_accessor :controller_class_name
+class SimplifiedFkGenerator < Rails::Generator::Base
+
   def manifest
     record do |m|            
       m.migration_template "suggested_foreign_keys_simplified_fk.rb", "db/migrate",
